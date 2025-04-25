@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        color:white;
+    }
+    .nav{
+        background-color:black;
+        height: 12vh;
+        display: flex;
+    }
+    .nav-logo{
+        width:7%;
+        padding: 20px;
+    }
+    .nav-item{
+        width:30%;
+        flex-grow: 1;
+    
+    }
+    .nav-button{
+        width:13%;
+        padding: 20px;
+    }
+    .nav-item ul{
+        display: flex;
+        gap: 20px;
+        height: 10vh;
+        align-items: center;
+    }
+    .nav-item ul li{
+        list-style: none;
+    }
+    .nav-button button{
+        padding: 10px;
+    }
+   .buynow{
+        color:rgba(34, 199, 34, 0.667);
+        background-color: aliceblue;
+        border:rgba(34, 199, 34, 0.667) ;
+    }
+    .discover{
+        background-color: red;
+        border: none
+
+    }
+</style>
+<body>
+    <div class="nav">
+        <div class="nav-logo"><h2>Miri UI</h2></div>
+        <div class="nav-item">
+        <ul>
+            <li>Home</li>
+            <li>Templates</li>
+            <li>Pages</li>
+            <li>Elements</li>
+        </ul>
+       </div>
+        <div class="nav-button">
+            <button class="buynow">Buy Now</button>
+            <button class="discover">Discover</button>
+        </div>
+    </div>
+</body>
+</html>
